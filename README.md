@@ -202,6 +202,46 @@ If you click on the arrow in the red section (see above), you can
 4. play button to enter into the first flow (see [#flow](#flow))
 5. zoom level
 
+---
+
+In the blue section we have the Figma icon that opens the options (most of these options can also be accessed through the quick search - accessible by hitting <kbd>ctrl-p</kbd>) and the rest are tools we will be doing into more details in [Create Design](#Create Design)
+
+![options](img/options.png)
+
+Within the options, we have the options in order of top to bottom:
+
+1. Back to [recent view](#Main Overview)
+
+2. Quick action (command palette)
+
+3. ![file](img/file.png)
+
+   * new files
+   * place image (can also be done by dragging images in or using copy and paste from clipboard)
+   * save current board (in a .fig file)
+   * save current version as a named point so you can revert back to this named state later
+   * view history of project
+   * export selected
+   * export all the frames/artboards
+
+4. The rest of the options like Edit, View, Object, Vector, Text, and Arrange are basically useless as it can be quickly accessible using shortcuts or other places that are more convenient than going into this dialog box
+
+5. ![plugins](img/plugins.png)
+
+   Plugin shows the plugins you currently have installed (these are global to your account) as well as the options to browse for other plugins
+
+6. Integrations are usually tied to another 3rd party service like live embed in Confluence apps
+
+7. ![pref](img/pref.png)
+
+   Preferences have a lot of useful options like snaps
+
+8. User libraries (shared assets)
+
+9. Get desktop app will redirect you to the download of the desktop app
+
+10. Help and account has a bunch of miscellaneous features
+
 <a name=Layer Manager></a>
 
 ### Layer Manager
@@ -383,6 +423,8 @@ Figma has many fonts coming from Google fonts. If you have a custom font in mind
 Figma files can be shared via a .fig file format by clicking on the Figma Icon and selecting file->Save local copy...
 
 Also note that Figma has a desktop version (probably an [electron](https://www.electronjs.org/) port of the website) for MacOS and Windows
+
+Figma is a pretty good alternative to Adobe Illustrator, in fact in some capacities it is more capable 
 
 <a name=Resources></a>
 
