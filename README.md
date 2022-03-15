@@ -96,7 +96,7 @@ If you click on the arrow in the purple section (see above), you can
 2. other collaborators (and yourself) that are currently viewing the file
 3. share button to share a link for someone else to view or edit [see [#share](#share) for more info]
 4. comments
-5. reactions and timer (see [#interactivity](#interactivity))
+5. reactions and timer [see [#interactivity](#interactivity)]
 6. zoom level
 
 ### Toolbar
@@ -107,14 +107,14 @@ The tool bar contains (from left to right):
 
 * mouse to select or hand to pan the canvas
 * pencil to draw on the canvas (has option for highlighting as well)
-* shapes - ⚠ they act the same as stick notes
+* shapes - they act the same as stick notes
 * sticky notes - basically a text box
 * text box
 * connector (to show flow of 1 idea to the next)
 * stamps 
 * other widgets, plugins, templates and more
 
-
+These can be dragged onto the canvas to be placed or clicked to activate the tool and click on the canvas to instantiate an instance 
 
 <a name=interactivity></a>
 
@@ -126,11 +126,46 @@ Since FigJam is more for interacting and brainstorming, there are ways to commun
 
 In addition you can set a timer to your brainstorming
 
+### Creating
+
+Now we can get to creating! For this we will be creating the start to making strawberry jam 😋
+
+1. first drag in a sticky note
+
+2. in the image below you will see options from left to right to
+
+   * change the color of the sticky note
+   * change font style of the text (ie bold, strikethrough)
+   * hyperlink
+   * create list (bullet points)
+   * font size
+   * toggle if you see author of the sticky note
+
+   ![sticky](img/sticky.png)
+
+3. If you hover over any of the 4 sides of the sticky note u will get a plus icon. If you click and drag the icon you can create another sticky note with a arrow pointing to it
+
+4. You can also get an arrow to attach to a sticky note by having two independent sticky notes and doing step 3 but drag the would be new sticky note to the already existing one (see below gif)
+
+   ![sticky](img/sticky.gif)
+
+5. Chain these interactions together and you can achieve something like this:
+
+   ![figjamie](img/figjamie.png)
+
+Congrats on completing your first FigJam 🎉
+
+Using these simple interaction and the simple building block you can do anything your brain can storm up!
+
 <a name=share></a>
 
 ## Sharing/Collaborating
 
+To share your Figma file click on the blue share button on the header and it will being you to this popup.
+
 ![share](img/share.png)
+
+Here you can invite people to view only or edit the file. Please note that by default anyone with the link can view it and you would need to click on **Anyone with the link** dropdown to change it to **Only people invited to this file**. Otherwise you can publish to the community using the second tab on the top ribbon or even embed the figma file as a widget (as HTML) by clicking on **Get embed code**
 
 ## Helpful commands
 
