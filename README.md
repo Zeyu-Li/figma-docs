@@ -185,7 +185,30 @@ Figma has **3 tiers** for both Figma and FigJam.
 
 ![pricing](img/pricing.png)
 
+## Fonts
 
+Figma has many fonts coming from Google fonts. If you have a custom font in mind with the font files (most likely ttf or otf file) you need to:
+
+1. download the [Figma desktop](https://www.figma.com/downloads/) app to edit custom text (although you can view it in the browser version)
+2. or download the font installer [here](https://www.figma.com/downloads/) and reload all Figma tabs
+
+
+
+## Misc
+
+Figma files can be shared via a .fig file format by clicking on the Figma Icon and selecting file->Save local copy...
+
+Also note that Figma has a desktop version (probably an [electron](https://www.electronjs.org/) port of the website) for MacOS and Windows
+
+## Resources
+
+General Figma docs: https://help.figma.com/hc/en-us
+
+Installing Fonts: https://help.figma.com/hc/en-us/articles/360039956894-Access-local-fonts-on-your-computer
+
+Figma mirco interactions: https://www.youtube.com/watch?v=LnPEGhE90r4
+
+Figma desktop: https://www.figma.com/downloads/
 
 ## License
 
