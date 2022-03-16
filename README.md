@@ -215,7 +215,9 @@ Within the options, we have the options in order of top to bottom:
 
 2. Quick action (command palette)
 
-3. ![file](img/file.png)
+3.  
+
+   ![file](img/file.png)
 
    * new files
    * place image (can also be done by dragging images in or using copy and paste from clipboard)
@@ -227,13 +229,17 @@ Within the options, we have the options in order of top to bottom:
 
 4. The rest of the options like Edit, View, Object, Vector, Text, and Arrange are basically useless as it can be quickly accessible using shortcuts or other places that are more convenient than going into this dialog box
 
-5. ![plugins](img/plugins.png)
+5.  
+
+   ![plugins](img/plugins.png)
 
    Plugin shows the plugins you currently have installed (these are global to your account) as well as the options to browse for other plugins
 
 6. Integrations are usually tied to another 3rd party service like live embed in Confluence apps
 
-7. ![pref](img/pref.png)
+7.  
+
+   ![pref](img/pref.png)
 
    Preferences have a lot of useful options like snaps
 
@@ -280,7 +286,44 @@ If you want to rename a frame either double click on the frame's header text in 
 To start creating a design (UI part), using the the frame we created previously. First we will create a hero for the website
 
 1. To create some header text hit the T icon on left in the header, then click on where you want to place it in the design
+
 2. This will open up a textbox and you can start typing
+
+3.  
+
+   ![text](img/text.png)
+
+   When you create the text or any other object you will see the changeable bounding box and some helper alignment lines (dotted above)
+
+   If you want to change the size of the bounding box, drag the white square handles
+
+4. You will notice that the font size says the same despite changing the bounding box. To actually change the size go to the design section in the right and you will see all the options to change the text including (going line by line):
+
+   ![textChange](img/textChange.png)
+
+   * font used
+
+   * font type (ie bold, light, regular, italics, etc)
+
+   * font size
+
+   * line height
+
+   * letter spacing
+
+   * paragraph spacing
+
+   * toggle between auto height, auto height, and fixed size (fixed width, but no more)
+
+   * text align
+
+   * align vertally
+
+   * the three dots contain more settings like letter casing, superscript/subscript, etc
+
+     ![typeSetting](img/typeSetting.png)
+
+5. 
 
 ✨**Tip**: If you want to add comments to your design for future reference or for your teammates, you can click on the bubble icon on the left part of the header
 
@@ -493,7 +536,7 @@ Figma has **3 tiers** for both Figma and FigJam.
 2. Figma Professional - for regular teams and team libraries and private/shared projects
 3. Figma Organization - enterprise edition with SSO and organization level libraries
 
-⚠ Note for **STUDENTS OR EDUCATORS**, Figma profession is **FREE**
+⚠ Note for **STUDENTS OR EDUCATORS**, Figma profession is **FREE** ⚠
 
 ![pricing](img/pricing.png)
 
