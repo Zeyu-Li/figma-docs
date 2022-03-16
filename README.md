@@ -29,6 +29,7 @@ This is a doc for using [Figma](https://www.figma.com/) effectively
 <li><p><a href='#prototyping'>Prototyping</a></p>
 <ul>
 <li><a href='#micro-interactions'>Micro Interactions</a></li>
+<li><a href='#interactions'>Interactions</a></li>
 <li><a href='#flow'>Flow</a></li>
 </ul>
 </li>
@@ -63,7 +64,6 @@ This is a doc for using [Figma](https://www.figma.com/) effectively
 </ul>
 </details>
 
-
 <!---
 
 * [About](#About)
@@ -77,6 +77,7 @@ This is a doc for using [Figma](https://www.figma.com/) effectively
   * [Layer Manager](#Layer Manager)
   * [Create Design](#Create Design)
   * [Prototyping](#Prototyping)
+    * [Interactions](#Interactions)
     * [Micro Interactions](#Micro Interactions)
     * [Flow](#Flow)
   * [Demo](#Demo)
@@ -246,31 +247,120 @@ Within the options, we have the options in order of top to bottom:
 
 ### Layer Manager
 
+#### Create
+
+Figma works much like photoshop or illustrator where the canvas is laid out in artboards/frames. To create an artboard/frame click on the # icon in the header. Then in the left sidebar you will see a list of frames under the design tab (see below)
+
+![frame](img/frame.png)
+
+Expanding each one out, you will see different options for each, for example, of the 2 most common one - phone and desktop, select desktop and you will see a verity of options. I will pick MacBook 14". Once you click on it, a new artboard/frame will show up on the canvas
+
+![desktop](img/desktop.png)
+
+Your artboard will act as the base layer although you can have things outside of artboards. 
+
+Alternatively once you # icon in the header, you can draw out a rectangle in the canvas to create a frame. 
+
+If you drag or draw a frame in another frame, the new frame will most likely be a child of the parent frame. You can be certain of this if you look in the Layers tab in the left add see the same structure as below
+
+![inner](img/inner.png)
+
+Also note that frames can hold multiple frames and those frames inside can hold multiple frames and so on
+
+#### Rename
+
+If you want to rename a frame either double click on the frame's header text in the canvas or in the Layers outline
+
+![rename](img/rename.gif)
+
 <a name=Create Design></a>
 
 ### Create Design
+
+To start creating a design (UI part), using the the frame we created previously. First we will create a hero for the website
+
+1. To create some header text hit the T icon on left in the header, then click on where you want to place it in the design
+2. This will open up a textbox and you can start typing
+
+✨**Tip**: If you want to add comments to your design for future reference or for your teammates, you can click on the bubble icon on the left part of the header
+
+![comment](img/comment.png)
 
 <a name=Prototyping></a>
 
 ### Prototyping
 
+Now we will get into interacting with the Figma file (the UX part)
+
+<a name=Interactions></a>
+
+#### Interactions
+
+
+
 <a name=Micro Interactions></a>
 
 #### Micro Interactions
+
+
 
 <a name=Flow></a>
 
 #### Flow
 
+
+
 <a name=Demo></a>
 
 ### Demo
+
+Demos can be used to show potential stakeholders what screens are envisioned and how interactions will work. To enter into demo phase, click the play button on the right of the top header
+
+![play](img/play.png)
+
+After clicking on this, you will be launched into the interactive mode on a new window (this can then be shared with other people). Within the demo we can interact with the components we made in [#Interactions](#Interactions) 
+
+---
+
+#### Top
+
+Within this screen we can see some options on the top and bottom bar. Let's start with the top portion
+
+![playHeader](img/playHeader.png)
+
+In this top portion we can:
+
+* comment specifically on the mockup (this will be reflected in the design file) 
+* share this prototyping site [see [#Sharing/Collaborating](#Sharing/Collaborating)]
+* options -> is mostly useless options
+* fullscreen
+
+#### Bottom
+
+![playBottom](img/playBottom.png)
+
+In the bottom portion we can:
+
+* change which frame we are on
+* restart to the first flow/frame
+
+#### Demo Video
+
+
 
 <a name=Export></a>
 
 ### Export
 
+To export a frame or whatever you have selected as svg, png, jpeg, or pdf, all that you want exported selected then go to Design->Export and select the export options
 
+![export](img/export.png)
+
+To export you project as .fig (Figma's proprietary file format) click on the Figma icon->File->Save local copy...
+
+You can also export certain sections by using the slice tool under the same dropdown as frame in the header
+
+![slice](img/slice.png)
 
 <a name=FigJam></a>
 
@@ -420,11 +510,12 @@ Figma has many fonts coming from Google fonts. If you have a custom font in mind
 
 ## Misc
 
-Figma files can be shared via a .fig file format by clicking on the Figma Icon and selecting file->Save local copy...
+* Figma files can be shared via a .fig file format by clicking on the Figma Icon and selecting file->Save local copy...
+* Also note that Figma has a desktop version (probably an [electron](https://www.electronjs.org/) port of the website) for MacOS and Windows
+* Figma is a pretty good alternative to Adobe Illustrator, in fact in some capacities it is more capable 
+* If you are implementing the design of the Figma file, we can go to the Inspect tab of the design file to get the code of how it's visualized. Most useful will probably be the CSS but you can also see the Android or iOS versions of the design
 
-Also note that Figma has a desktop version (probably an [electron](https://www.electronjs.org/) port of the website) for MacOS and Windows
-
-Figma is a pretty good alternative to Adobe Illustrator, in fact in some capacities it is more capable 
+![css](img/css.png)
 
 <a name=Resources></a>
 
