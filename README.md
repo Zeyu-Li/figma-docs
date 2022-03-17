@@ -49,7 +49,7 @@ This is a doc for using [Figma](https://www.figma.com/) effectively
 </li>
 <li><p><a href='#sharingcollaborating'>Sharing/Collaborating</a></p>
 </li>
-<li><p><a href='#helpful-commands'>Helpful Commands</a></p>
+<li><p><a href='#helpful-commands'>Helpful Commands/Shortcuts</a></p>
 </li>
 <li><p><a href='#pricing'>Pricing</a></p>
 </li>
@@ -285,6 +285,8 @@ If you want to rename a frame either double click on the frame's header text in 
 
 To start creating a design (UI part), using the the frame we created previously. First we will create a hero for the website
 
+#### Text/Image
+
 1. To create some header text hit the T icon on left in the header, then click on where you want to place it in the design
 
 2. This will open up a textbox and you can start typing
@@ -295,7 +297,7 @@ To start creating a design (UI part), using the the frame we created previously.
 
    When you create the text or any other object you will see the changeable bounding box and some helper alignment lines (dotted above)
 
-   If you want to change the size of the bounding box, drag the white square handles
+   If you want to change the size of the bounding box, drag the white square handles. In addition if hover just outside the corner of the white squares you can then rotate the object
 
 4. You will notice that the font size says the same despite changing the bounding box. To actually change the size go to the design section in the right and you will see all the options to change the text including (going line by line):
 
@@ -323,11 +325,175 @@ To start creating a design (UI part), using the the frame we created previously.
 
      ![typeSetting](img/typeSetting.png)
 
-5. 
+5. You will notice as you move things around, you will get snapping guides to help you align with other objects
 
-✨**Tip**: If you want to add comments to your design for future reference or for your teammates, you can click on the bubble icon on the left part of the header
+   ![snapping](img/snapping.png)
+
+   If you wish to disable snapping, press <kbd>ctrl-p</kbd> and search snap and then uncheck snap to objects
+
+   ![search](img/search.png)
+
+6. Next if we want to place an image (of jam) we can drag in the image file into the canvas (this includes svg file or gifs)
+
+#### Objects
+
+1. Next we may want to create a call to action button
+
+   1. To start off, create a textbox
+
+   2. next if we click on the rectangle in the header we can see the dropdown for a bunch of shapes and an option to place an image
+
+   3. we select the rectangle and drag out a rectangle to our liking
+
+   4. If you covered the text, you see it again by change the ordering of the objects by pressing <kbd>ctrl-[</kbd> with the rectangle selected. This will being the object behind/back a layer. If you do <kbd>ctrl-]</kbd>, you will move it forward a layer. This can also be done by moving the object in the layers tab up or down
+
+      ![ordering](img/ordering.gif)
+
+   5. Now we can look at some ways to change the look of the button
+
+   6.  Now we can explore the design tab in full detail
+
+      ![colored](img/colored.jpg)
+
+      * Starting from the top (brown section), we have the alignment tickers. This aligns the current objects to the artboard (all items individually unless they are grouped)
+      * the x and y position of the object, the width/height (and a lock aspect ratio toggle), angle and if it is a shape, there will be a rounded corner option
+      * constraints to the object (mostly used when resizing artboard/parent element) and if it will be fixed while scrolling
+      * layer mix type (much like Photoshop's)
+      * Fill and stroke color (can change if stroke is dotted and the way join edges as well if you hit the 3 dots)
+      * Effects (also like Photoshop, ie drop shadow)
+      * Export [see [#Export](#Export)]
+
+   7. For our button we need to round the corner so turn it to the max (45 for me). If you want to decouple the corner (ie round on all corners except 1, click on the fullscreen icon on below and change the respective corner [see below])
+
+      ![corners](img/corners.png)
+
+   8. Next we want to select the color to be a cool blue to contrast the red. We select the fill color and will see the color picker pop up. 
+
+      ![colorPicker](img/colorPicker.png)
+
+      Within the color picker we can select the color directly or paste in the values. We can also see a quick palette of colors. In addition if we click solid on the top right we can change it to a gradient (currently supported gradients are linear, circular/radial, angular, and diamond)
+
+      We can also change the opacity using the slider below the color slider
+
+   9. We can then add a stroke by clicking the + icon (this is also the way to add a fill). Optionally add a drop shadow by hitting the + button in the effects section
+
+      ![stroke](img/stroke.png)
+
+#### Grouping
+
+1. We then want to group the hero components and center it
+
+   1. select all the components
+
+   2. hit <kbd>ctrl-g</kbd> which groups the selected objects
+
+   3. align to the artboard center by hitting the second icon in the design panel (see below)
+
+      ![alignCenter](img/alignCenter.png)
+
+   4. now if we want to make edits in the group we need to double click to enter the group and click away/escape to exit the group
+
+   5. to ungroup hit <kbd>ctrl-shift-g</kbd>
+
+#### Mask and Vectors
+
+Since Figma is a vector based system, like Adobe Illustrator we can join vector/shape objects (shapes) into 1 object/shape in a variety of ways.
+
+(below is just a circle overlaid on a rectangle)
+
+![shape](img/shape.png)
+
+this is done by selecting two objects/shapes and going to the header to find the two intercepting squares. 
+
+![vector](img/vector.png)
+
+The types of operations you can do on the objects are:
+
+*  Union - join sections
+
+  ![union](img/union.png)
+
+* Subtract - subtract front from back object
+
+  ![sub](img/sub.png)
+
+* Intersect - only where overlap
+
+  ![inter](img/inter.png)
+
+* Exclude - opposite of intersect
+
+  ![exclude](img/exclude.png)
+
+In addition to vectors we can create masks. This will make it so the object in the back acts like a frame for the front object and anything outside of the back object is cut off. For example:
+
+![mask](img/mask.gif)
+
+---
+
+In addition we can create your own custom object using the pen tool. This is the same pen tool you would find in your photo editors like Photoshop, Gimp, Adobe Illustrator etc. 
+
+![penStrech](img/penStrech.png)
+
+Pen sketch above
+
+#### Misc
+
+One other tool is the pencil tool to do free hand drawing in. This is found under the pen icon in the heaader. 
+
+⚠ **Note**: Figma smoothens out your scketches
+
+#### Components and Library
+
+Figma makes reusing components and assets easy with **components and libraries**
+
+##### Library
+
+To add things like color to your library you will usually find the 4 dots in the shape of the square button like below
+
+![styles](img/styles.png)
+
+Once you find the color you like, click the 4 dots, click the plus icon and give it a name
+
+![colorStyles](img/colorStyles.png)
+
+Once it is instanced, we can use this color again by pressing the 4 dots and selecting this color. In addition as seen above, you can get colors from other projects (under your team library). 
+
+If you decide to change your time later you can just change the color in the library and all objects using the same color in the library will change accordingly. This is done by going to list view (list icon above and hitting the edit style button beside the color you chose to edit)
+
+![editLib](img/editLib.png)
+
+If you want to remove a linked color from the library just click the unchain icon
+
+![unlink](img/unlink.png)
+
+##### Components 
+
+There are times were you will reuse components like a header, footer, button, etc, lucky with Figma it is made easy 
+
+To create an instance:
+
+1. select the instance to reuse
+
+2. click the rotated 4 square icon in the header
+
+    ![instance](img/instance.png)
+
+3. this will then be your master instance and any change to this instance will be reflected on the child instances
+
+4. to create a child instance you would clone it (either copy and paste it or click drag)
+
+5. if you would like to detach the instance with the master, hit <kbd>ctrl-alt-b</kbd> (or <kbd>ctrl-option-b</kbd> on mac)
+
+⚠ **Note**: In addition other fields like text, effects and more can be instanced to the library
+
+---
+
+✨**Tip 1**: If you want to add comments to your design for future reference or for your teammates, you can click on the bubble icon on the left part of the header
 
 ![comment](img/comment.png)
+
+✨**Tip 2**: If you use Adobe illustrator, you can copy and paste directly using the clipboard to transfer objects made in illustrator to Figma
 
 <a name=Prototyping></a>
 
@@ -520,10 +686,14 @@ Here you can invite people to view only or edit the file. Please note that by de
 
 <a name=Helpful commands></a>
 
-## Helpful commands
+## Helpful commands/Shortcuts
 
-* The most helpful command is <kbd>ctrl-p</kbd> to access the quick search menu. Using this you can search for any action/feature you want to preform  instead of digging through the UI
+* The most helpful command is <kbd>ctrl-p</kbd> to access the quick search menu. Using this you can search for any action/feature you want to preform instead of digging through the UI. The example below shows this feature
+
+  ![search](img/search.png)
+
 * Zoom in and out by holding control and using the mouse wheel
+
 * Pan the canvas by holding space and dragging 
 
 <a name=Pricing></a>
@@ -582,3 +752,8 @@ Pricing: https://www.figma.com/pricing/
 
 This tutorial is under [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) 
 
+## Contribute
+
+If you notice an inaccuracy or misspelling, create a PR and I will get around to it soon
+
+Thanks <3 
