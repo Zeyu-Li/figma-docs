@@ -772,8 +772,19 @@ Figma has many fonts coming from Google fonts. If you have a custom font in mind
 ## Misc
 
 * Figma files can be shared via a .fig file format by clicking on the Figma Icon and selecting file->Save local copy...
+
 * Also note that Figma has a desktop version (probably an [electron](https://www.electronjs.org/) port of the website) for MacOS and Windows
+
 * Figma is a pretty good alternative to Adobe Illustrator, in fact in some capacities it is more capable 
+
+* To change the background color of the canvas on Figma, have nothing selected and you will see Background in the Design tab. Here you can then change the color
+
+* If you want a grid to better align items, you can select an artboard and there will be a section called Layout grid
+
+  ![col](img/col.png)
+
+  Here you can have a grid, column or row overlaid on the artboard and the align the items to your liking
+
 * If you are implementing the design of the Figma file, we can go to the Inspect tab of the design file to get the code of how it's visualized. Most useful will probably be the CSS but you can also see the Android or iOS versions of the design
 
 ![css](img/css.png)
