@@ -792,9 +792,13 @@ Figma desktop: https://www.figma.com/downloads/
 
 Pricing: https://www.figma.com/pricing/
 
-Demo Figma: https://www.figma.com/file/N6G6bxYLtO6zXVyP0gReRg/Jam-Site?node-id=0%3A1
+Demo Figma Design: https://www.figma.com/file/N6G6bxYLtO6zXVyP0gReRg/Jam-Site?node-id=0%3A1
 
-Demo Figma .fig file: https://github.com/Zeyu-Li/figma-docs/releases/tag/1.0
+Demo Figma Design .fig file: https://github.com/Zeyu-Li/figma-docs/releases/tag/1.0 (called demo.fig)
+
+Demo FigJam: https://www.figma.com/file/BV4J8vUTylqb8kx4M9CIgc/Jamming-Out-%F0%9F%8D%93?node-id=0%3A1
+
+Demo FigJam file: https://github.com/Zeyu-Li/figma-docs/releases/tag/1.0 (called demo.jam)
 
 [**🔝 Back to Top**](#top)
 
