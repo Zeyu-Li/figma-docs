@@ -505,19 +505,65 @@ Now we will get into interacting with the Figma file (the UX part)
 
 #### Interactions
 
+To create general interaction (ie from page to page), we can select what we want, ie a button and go to the Prototype tab and now we should see a white circle on the right most side of the bounding box (will have a plus if we hover over it)
 
+![addProto](img/addProto.png)
+
+Now we can drag this to another artboard and it will automatically go to the other artboard on tap. Of course instead of navigate we can instead open it as an overlay (like a popup or modal) by clicking on the Navigate to dropdown
+
+![overlay](img/overlay.png)
+
+We also have the option to scroll to, open link of or go back
+
+##### Animation
+
+Additionally we can change the animation type when transitioning
+
+![animate](img/animate.png)
+
+These will be similar to ones you find in PowerPoint or Google slides
 
 <a name=Micro Interactions></a>
 
 #### Micro Interactions
 
+<!--- mostly taken from this video: https://www.youtube.com/watch?v=LnPEGhE90r4 -->
 
+Micro interaction are what can make your Figma demos really special
+
+To apricate this feature, I recommend looking at this video: [youtube.com/watch?v=LnPEGhE90r4](https://www.youtube.com/watch?v=LnPEGhE90r4)
+
+For your app we can create a simple on hover animation but you can do a lot more. 
+
+1. To start create an artboard large enough to house the original and the alternative animation
+
+2. Drag the object(s) into the artboard
+
+3. Clone the artboard to somewhere else outside of the artboard (click drag)
+
+4. Create the changes in the new frame (in this case change the button background color)
+
+5. Open the interaction and have the exact same settings I have below:
+
+   ![hover](img/hover.png)
+
+   This will overlay the frame called Frame 1 above the current
+
+6. Now you have created your first micro interaction 🎉
 
 <a name=Flow></a>
 
 #### Flow
 
+To create a flow select an artboard, head to the Prototype tab and hit the add button on the Flow start point
 
+![flow](img/flow.png)
+
+Flows are made so you can different starting point when demoing [see [#demo](#demo)]. In fact they can be put into demo mode by hitting the arrow key in the flow. 
+
+![demoPlay](img/demoPlay.png)
+
+✨**Tip**: You can have multiple flows in 1 document, this might be useful if you have a mobile and a desktop version or you just want to start your demo off in different places instead of navigating to the page
 
 <a name=Demo></a>
 
@@ -555,7 +601,7 @@ In the bottom portion we can:
 
 #### Demo Video
 
-
+![demo](img/demo.gif)
 
 <a name=Export></a>
 
@@ -570,6 +616,8 @@ To export you project as .fig (Figma's proprietary file format) click on the Fig
 You can also export certain sections by using the slice tool under the same dropdown as frame in the header
 
 ![slice](img/slice.png)
+
+Congrats on completing your first Design on Figma 🎉
 
 <a name=FigJam></a>
 
@@ -738,11 +786,15 @@ General Figma docs: https://help.figma.com/hc/en-us
 
 Installing Fonts: https://help.figma.com/hc/en-us/articles/360039956894-Access-local-fonts-on-your-computer
 
-Figma mirco interactions: https://www.youtube.com/watch?v=LnPEGhE90r4
+Figma micro interactions: https://www.youtube.com/watch?v=LnPEGhE90r4
 
 Figma desktop: https://www.figma.com/downloads/
 
 Pricing: https://www.figma.com/pricing/
+
+Demo Figma: https://www.figma.com/file/N6G6bxYLtO6zXVyP0gReRg/Jam-Site?node-id=0%3A1
+
+Demo Figma .fig file: https://github.com/Zeyu-Li/figma-docs/releases/tag/1.0
 
 [**🔝 Back to Top**](#top)
 
