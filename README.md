@@ -167,7 +167,7 @@ In you main overview (see above), we have options to (from top to bottom):
 
 ## Figma Design
 
-Figma design file is what most people know Figma for and will the the focus of this section. Assuming you created a new blank design file from the previous steps, you will be brought to a page that looks like the following:
+Figma design file is what most people know Figma for and will the focus of this section. Assuming you created a new blank design file from the previous steps, you will be brought to a page that looks like the following:
 
 ![design](img/design.png)
 
@@ -197,7 +197,7 @@ If you click on the arrow in the red section (see above), you can
 
 ---
 
-1. in the brown section of the header you will find a headphone icon if you've selected a team which will allow you to do a voice chat the the team assuming you have the feature enabled by having the Figma Professional tier
+1. in the brown section of the header you will find a headphone icon if you've selected a team which will allow you to do a voice chat the team assuming you have the feature enabled by having the Figma Professional tier
 2. other collaborators (and yourself) that are currently viewing the file
 3. share button to share a link for someone else to view or edit [see [#share](#share) for more info]
 4. play button to enter into the first flow (see [#flow](#flow))
@@ -259,7 +259,7 @@ Figma works much like photoshop or illustrator where the canvas is laid out in a
 
 ![frame](img/frame.png)
 
-Expanding each one out, you will see different options for each, for example, of the 2 most common one - phone and desktop, select desktop and you will see a verity of options. I will pick MacBook 14". Once you click on it, a new artboard/frame will show up on the canvas
+Expanding each one out, you will see different options for each, for example, of the 2 most common one - phone and desktop, select desktop and you will see a variety of options. I will pick MacBook 14". Once you click on it, a new artboard/frame will show up on the canvas
 
 ![desktop](img/desktop.png)
 
@@ -319,7 +319,7 @@ To start creating a design (UI part), using the the frame we created previously.
 
    * text align
 
-   * align vertally
+   * align vertically
 
    * the three dots contain more settings like letter casing, superscript/subscript, etc
 
@@ -345,7 +345,7 @@ To start creating a design (UI part), using the the frame we created previously.
 
    3. we select the rectangle and drag out a rectangle to our liking
 
-   4. If you covered the text, you see it again by change the ordering of the objects by pressing <kbd>ctrl-[</kbd> with the rectangle selected. This will being the object behind/back a layer. If you do <kbd>ctrl-]</kbd>, you will move it forward a layer. This can also be done by moving the object in the layers tab up or down
+   4. If you covered the text, you see it again by changing the ordering of the objects by pressing <kbd>ctrl-[</kbd> with the rectangle selected. This will bring the object behind/back a layer. If you do <kbd>ctrl-]</kbd>, you will move it forward a layer. This can also be done by moving the object in the layers tab up or down
 
       ![ordering](img/ordering.gif)
 
@@ -355,7 +355,7 @@ To start creating a design (UI part), using the the frame we created previously.
 
       ![colored](img/colored.jpg)
 
-      * Starting from the top (brown section), we have the alignment tickers. This aligns the current objects to the artboard (all items individually unless they are grouped)
+      * Starting from the top (brown section), we have the alignment tickets. This aligns the current objects to the artboard (all items individually unless they are grouped)
       * the x and y position of the object, the width/height (and a lock aspect ratio toggle), angle and if it is a shape, there will be a rounded corner option
       * constraints to the object (mostly used when resizing artboard/parent element) and if it will be fixed while scrolling
       * layer mix type (much like Photoshop's)
@@ -403,7 +403,7 @@ Since Figma is a vector based system, like Adobe Illustrator we can join vector/
 
 ![shape](img/shape.png)
 
-this is done by selecting two objects/shapes and going to the header to find the two intercepting squares. 
+this is done by selecting two objects/shapes and going to the header to find the two intersecting squares. 
 
 ![vector](img/vector.png)
 
@@ -439,9 +439,9 @@ Pen sketch above
 
 #### Misc
 
-One other tool is the pencil tool to do free hand drawing in. This is found under the pen icon in the heaader. 
+One other tool is the pencil tool to do free hand drawing. This is found under the pen icon in the header. 
 
-⚠ **Note**: Figma smoothens out your scketches
+⚠ **Note**: Figma smoothes out your sketches
 
 #### Components and Library
 
@@ -531,7 +531,7 @@ These will be similar to ones you find in PowerPoint or Google slides
 
 Micro interaction are what can make your Figma demos really special
 
-To apricate this feature, I recommend looking at this video: [youtube.com/watch?v=LnPEGhE90r4](https://www.youtube.com/watch?v=LnPEGhE90r4)
+To appreciate this feature, I recommend looking at this video: [youtube.com/watch?v=LnPEGhE90r4](https://www.youtube.com/watch?v=LnPEGhE90r4)
 
 For your app we can create a simple on hover animation but you can do a lot more. 
 
@@ -670,7 +670,7 @@ The tool bar contains (from left to right):
 
 * mouse to select or hand to pan the canvas
 * pencil to draw on the canvas (has option for highlighting as well)
-* shapes - they act the same as stick notes
+* shapes - they act the same as sticky notes
 * sticky notes - basically a text box
 * text box
 * connector (to show flow of 1 idea to the next)
@@ -708,7 +708,7 @@ Now we can get to creating! For this we will be creating the start to making str
 
    ![sticky](img/sticky.png)
 
-3. If you hover over any of the 4 sides of the sticky note u will get a plus icon. If you click and drag the icon you can create another sticky note with a arrow pointing to it
+3. If you hover over any of the 4 sides of the sticky note you will get a plus icon. If you click and drag the icon you can create another sticky note with a arrow pointing to it
 
 4. You can also get an arrow to attach to a sticky note by having two independent sticky notes and doing step 3 but drag the would be new sticky note to the already existing one (see below gif)
 
@@ -720,13 +720,13 @@ Now we can get to creating! For this we will be creating the start to making str
 
 Congrats on completing your first FigJam 🎉
 
-Using these simple interaction and the simple building block you can do anything your brain can storm up!
+Using these simple interactions and the simple building block you can do anything your brain can storm up!
 
 <a name=Sharing/Collaborating></a>
 
 ## Sharing/Collaborating
 
-To share your Figma file click on the blue share button on the header and it will being you to this popup.
+To share your Figma file click on the blue share button on the header and it will bring you to this popup.
 
 ![share](img/share.png)
 
@@ -736,7 +736,7 @@ Here you can invite people to view only or edit the file. Please note that by de
 
 ## Helpful commands/Shortcuts
 
-* The most helpful command is <kbd>ctrl-p</kbd> to access the quick search menu. Using this you can search for any action/feature you want to preform instead of digging through the UI. The example below shows this feature
+* The most helpful command is <kbd>ctrl-p</kbd> to access the quick search menu. Using this you can search for any action/feature you want to perform instead of digging through the UI. The example below shows this feature
 
   ![search](img/search.png)
 
